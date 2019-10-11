@@ -21,7 +21,7 @@ public class TestController {
 
 	@RequestMapping(value = "/getemployee", method = RequestMethod.GET)
 	public String firstPage() {
-		String baseUrl = "http://localhost:8081/employee";
+		String baseUrl = "http://producer:8081/employee";
 		RestTemplate restTemplate = new RestTemplate();
 		ResponseEntity<String> response=null;
 		try{

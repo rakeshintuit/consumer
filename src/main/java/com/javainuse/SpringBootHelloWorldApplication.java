@@ -8,8 +8,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestClientException;
 
-import com.javainuse.controllers.ConsumerControllerClient;
-
 @SpringBootApplication
 public class SpringBootHelloWorldApplication {
 
